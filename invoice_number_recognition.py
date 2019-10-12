@@ -82,9 +82,6 @@ ap.add_argument("-p", "--padding", type=float, default=0.0,
 args = vars(ap.parse_args())
 
 
-
-
-
 # main
 images_folder = glob.glob(os.getcwd() +'/images/*')
 
